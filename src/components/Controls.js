@@ -1,6 +1,6 @@
 import React from 'react';
 import { Shuffle, RotateCcw } from 'lucide-react';
-import { categories } from '/data/quizData.js';
+import { categories } from '../data/quizData.js';
 
 // Adding selectedCategory and handleCategoryChange to props
 const Controls = ({ shuffleCards, resetQuiz, selectedCategory, handleCategoryChange }) => {
