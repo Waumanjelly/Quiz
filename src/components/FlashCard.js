@@ -34,9 +34,6 @@ const FlashCard = ({ quiz, showAnswer, flipCard, markAnswer }) => {
                             <h3 className="text-2xl font-bold text-green-700 mb-6">
                                 {quiz.answer}
                             </h3>
-                            <p className="text-gray-600 text-lg mb-8 bg-gray-50 p-4 rounded-lg">
-                                {quiz.explanation}
-                            </p>
 
                             {/* Self-assessment buttons */}
                             <div className="flex justify-center gap-4">

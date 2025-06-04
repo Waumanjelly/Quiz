@@ -1,9 +1,9 @@
 import React from 'react';
-import FlashCard from './components/FlashCard';
-import ProgressBar from './components/ProgressBar';
-import Navigation from './components/Navigation';
-import Controls from './components/Controls';
-import { useQuizState } from './hooks/useQuizState';
+import FlashCard from './components/FlashCard.js'; // Corrected path
+import ProgressBar from './components/ProgressBar.js'; // Corrected path
+import Navigation from './components/Navigation.js'; // Corrected path
+import Controls from './components/Controls.js'; // Corrected path
+import { useQuizState } from './hooks/useQuizState.js'; // Corrected path
 import { BookOpen, Trophy } from 'lucide-react';
 
 function App() {

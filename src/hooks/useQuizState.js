@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { quizData } from '../data/quizData'; // Path confirmed
+import { quizData } from '../data/quizData.js'; // Corrected path: quizData is in the same (root) directory
 
 export const useQuizState = () => {
     const [currentCard, setCurrentCard] = useState(0);
